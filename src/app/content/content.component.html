@@ -1,0 +1,3 @@
+<div class="flex">
+    <app-movie-card class="movie-card" [movie]="movie" *ngFor="let movie of movies" (deleteEmitter)="refreshMovies()"></app-movie-card>
+</div>
